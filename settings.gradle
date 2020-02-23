@@ -1,0 +1,3 @@
+include ':onePlusBase'
+include ':onePlusCameraLib'
+include ':onePlusCamera'
