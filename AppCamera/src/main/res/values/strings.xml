@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Advanced settings -->
+	<string name="adv_settings">Settings</string>
+	<string name="adv_settings_front_camera_mirror">Mirror front camera photo</string>
+	<string name="adv_settings_grid">Grid</string>
+	<string name="adv_settings_location">Save location</string>
+	<string name="adv_settings_photo_resolution">Photo resolution</string>
+	<string name="adv_settings_photo_resolution_format" formatted="false">%.1fMP %s</string>
+	<string name="adv_settings_shutter_sound">Shutter sound</string>
+	<string name="adv_settings_video_resolution">Video resolution</string>
+	
+	<!-- Application -->
+	<string name="app_name">Charles Camera</string>
+	
+	<!-- Capture mode -->
+	<string name="capture_mode_manual">Manual</string>
+	<string name="capture_mode_panorama">Panorama</string>
+	<string name="capture_mode_photo">Photo</string>
+	<string name="capture_mode_slow_motion">Slow motion</string>
+	<string name="capture_mode_timelapse">Time-lapse</string>
+	<string name="capture_mode_video">Video</string>
+	
+	<!-- 2A lock -->
+	<string name="focus_exposure_locked">AE/AF locked</string>
+	
+	<!-- Resolution -->
+	<string name="resolution_video_1080p">Full HD</string>
+	<string name="resolution_video_2160p">UHD</string>
+	<string name="resolution_video_720p">HD</string>
+	
+	<!-- Scene -->
+	<string name="scene_clear_shot">Clear shot</string>
+	<string name="scene_hdr">HDR</string>
+	<string name="scene_face_beauty_photo">Beauty</string>
+
+</resources>

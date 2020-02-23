@@ -1,0 +1,45 @@
+package com.charles.camera.ui;
+
+import android.graphics.drawable.Drawable;
+
+import com.charles.base.Handle;
+import com.charles.base.component.Component;
+
+/**
+ * Media capture button(s) interface.
+ */
+public interface CaptureButtons extends Component
+{
+	/**
+	 * Capture button style.
+	 */
+	enum ButtonStyle
+	{
+		/**
+		 * Normal.
+		 */
+		NORMAL,
+		/**
+		 * Small button.
+		 */
+		SMALL,
+	}
+	
+	
+	/**
+	 * Change background of primary capture button.
+	 * @param drawable New background drawable.
+	 * @param flags Flags, reserved.
+	 * @return Handle to button background.
+	 */
+	Handle setPrimaryButtonBackground(Drawable drawable, int flags);
+	
+	
+	/**
+	 * Change icon of primary capture button.
+	 * @param drawable New icon drawable.
+	 * @param flags Flags, reserved.
+	 * @return Handle to button icon.
+	 */
+	Handle setPrimaryButtonIcon(Drawable drawable, int flags);
+}
