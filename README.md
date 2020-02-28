@@ -5,6 +5,8 @@ A app demo
 
 2. A highly customization gallery animation by imageView matrix in a Camera app
 
+![](https://github.com/charles-lo/CameraApp/blob/dev/misc/gallery.gif)
+
 3. basic usage in a camera app
 
 4. Mediator pattern used in camera app
